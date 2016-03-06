@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="12" height="12" tilewidth="32" tileheight="32" nextobjectid="28">
+ <tileset firstgid="1" name="1" tilewidth="32" tileheight="32" tilecount="4" columns="2">
+  <image source="../Images/atlas.png" width="64" height="64"/>
+ </tileset>
+ <layer name="Tile layer 1" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhcgIkIPFjdRQ+3DQY3IAMAPPgAOQ==
+  </data>
+ </layer>
+ <objectgroup name="Collision layer">
+  <object id="13" x="2" y="321">
+   <polyline points="0,0 285,-2"/>
+  </object>
+  <object id="14" x="383" y="192">
+   <polyline points="0,0 -319,-1"/>
+  </object>
+  <object id="15" x="2" y="95">
+   <polyline points="0,0 287,1"/>
+  </object>
+  <object id="22" x="288.667" y="96.3333">
+   <polyline points="0,0 -0.333333,31 -288,31.3333"/>
+  </object>
+  <object id="23" x="64" y="191">
+   <polyline points="0,0 0,32 320,33"/>
+  </object>
+  <object id="24" x="1" y="288">
+   <polyline points="0,0 287,0 287,32"/>
+  </object>
+  <object id="27" x="0" y="0">
+   <polyline points="0,0 0,384 384,384 384,0 0,0"/>
+  </object>
+ </objectgroup>
+</map>
